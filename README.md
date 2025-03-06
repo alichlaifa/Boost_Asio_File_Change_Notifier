@@ -31,7 +31,7 @@ git clone https://github.com/yourusername/Boost_Asio_File_Change_Notifier.git
 cd Boost_Asio_File_Change_Notifier
 ```
 
-### **2️⃣ Configure config.h Files**
+### **3️⃣ Configure config.h Files**
 Edit the config.h files in both the Client and Server directories to set your server IP, server port, and watched folder.
 
 ## 🏗 Building the Project
@@ -56,7 +56,7 @@ Run the server:
 To build the client, follow these steps:
 
 ```bash
-cd Server
+cd Client
 mkdir build && cd build
 cmake ..
 make
